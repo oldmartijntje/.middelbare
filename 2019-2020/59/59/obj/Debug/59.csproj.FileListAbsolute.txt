@@ -1,0 +1,7 @@
+C:\Users\115918\source\repos\59\59\bin\Debug\59.exe.config
+C:\Users\115918\source\repos\59\59\bin\Debug\59.exe
+C:\Users\115918\source\repos\59\59\bin\Debug\59.pdb
+C:\Users\115918\source\repos\59\59\obj\Debug\59.csprojAssemblyReference.cache
+C:\Users\115918\source\repos\59\59\obj\Debug\59.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\59\59\obj\Debug\59.exe
+C:\Users\115918\source\repos\59\59\obj\Debug\59.pdb

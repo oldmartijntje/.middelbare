@@ -1,0 +1,7 @@
+C:\Users\115918\source\repos\iets\iets\bin\Debug\iets.exe.config
+C:\Users\115918\source\repos\iets\iets\bin\Debug\iets.exe
+C:\Users\115918\source\repos\iets\iets\bin\Debug\iets.pdb
+C:\Users\115918\source\repos\iets\iets\obj\Debug\iets.csprojAssemblyReference.cache
+C:\Users\115918\source\repos\iets\iets\obj\Debug\iets.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\iets\iets\obj\Debug\iets.exe
+C:\Users\115918\source\repos\iets\iets\obj\Debug\iets.pdb

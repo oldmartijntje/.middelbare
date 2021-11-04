@@ -1,0 +1,7 @@
+C:\Users\115918\source\repos\opdracht 2\opdracht 2\obj\Debug\opdracht 2.csprojAssemblyReference.cache
+C:\Users\115918\source\repos\opdracht 2\opdracht 2\obj\Debug\opdracht 2.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\opdracht 2\opdracht 2\bin\Debug\opdracht 2.exe.config
+C:\Users\115918\source\repos\opdracht 2\opdracht 2\bin\Debug\opdracht 2.exe
+C:\Users\115918\source\repos\opdracht 2\opdracht 2\bin\Debug\opdracht 2.pdb
+C:\Users\115918\source\repos\opdracht 2\opdracht 2\obj\Debug\opdracht 2.exe
+C:\Users\115918\source\repos\opdracht 2\opdracht 2\obj\Debug\opdracht 2.pdb

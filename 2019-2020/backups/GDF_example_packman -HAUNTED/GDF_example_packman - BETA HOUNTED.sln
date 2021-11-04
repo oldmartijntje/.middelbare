@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDF_example_packman", "GDF_example_packman.csproj", "{8466D42A-7DA5-4E92-8981-4BCCF8928FD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8466D42A-7DA5-4E92-8981-4BCCF8928FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8466D42A-7DA5-4E92-8981-4BCCF8928FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8466D42A-7DA5-4E92-8981-4BCCF8928FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8466D42A-7DA5-4E92-8981-4BCCF8928FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B04AD469-3003-4AB9-A406-926555DA721A}
+	EndGlobalSection
+EndGlobal

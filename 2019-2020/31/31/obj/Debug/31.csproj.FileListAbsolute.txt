@@ -1,0 +1,7 @@
+C:\Users\115918\source\repos\31\31\bin\Debug\31.exe.config
+C:\Users\115918\source\repos\31\31\bin\Debug\31.exe
+C:\Users\115918\source\repos\31\31\bin\Debug\31.pdb
+C:\Users\115918\source\repos\31\31\obj\Debug\31.csprojAssemblyReference.cache
+C:\Users\115918\source\repos\31\31\obj\Debug\31.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\31\31\obj\Debug\31.exe
+C:\Users\115918\source\repos\31\31\obj\Debug\31.pdb

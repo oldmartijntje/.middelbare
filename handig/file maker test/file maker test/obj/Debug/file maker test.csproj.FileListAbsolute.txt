@@ -1,0 +1,7 @@
+C:\Users\115953\source\repos\file maker test\file maker test\bin\Debug\file maker test.exe.config
+C:\Users\115953\source\repos\file maker test\file maker test\bin\Debug\file maker test.exe
+C:\Users\115953\source\repos\file maker test\file maker test\bin\Debug\file maker test.pdb
+C:\Users\115953\source\repos\file maker test\file maker test\obj\Debug\file maker test.csprojAssemblyReference.cache
+C:\Users\115953\source\repos\file maker test\file maker test\obj\Debug\file maker test.csproj.CoreCompileInputs.cache
+C:\Users\115953\source\repos\file maker test\file maker test\obj\Debug\file maker test.exe
+C:\Users\115953\source\repos\file maker test\file maker test\obj\Debug\file maker test.pdb

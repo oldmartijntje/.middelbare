@@ -1,0 +1,7 @@
+C:\Users\115918\source\repos\opdracht 15\opdracht 15\bin\Debug\opdracht 15.exe.config
+C:\Users\115918\source\repos\opdracht 15\opdracht 15\bin\Debug\opdracht 15.exe
+C:\Users\115918\source\repos\opdracht 15\opdracht 15\bin\Debug\opdracht 15.pdb
+C:\Users\115918\source\repos\opdracht 15\opdracht 15\obj\Debug\opdracht 15.csprojAssemblyReference.cache
+C:\Users\115918\source\repos\opdracht 15\opdracht 15\obj\Debug\opdracht 15.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\opdracht 15\opdracht 15\obj\Debug\opdracht 15.exe
+C:\Users\115918\source\repos\opdracht 15\opdracht 15\obj\Debug\opdracht 15.pdb

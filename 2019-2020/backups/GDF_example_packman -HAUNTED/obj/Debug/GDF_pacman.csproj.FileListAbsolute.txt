@@ -1,0 +1,15 @@
+E:\Game Design\GDF 19.2\GDF_start\bin\Debug\GDF_start.exe.config
+E:\Game Design\GDF 19.2\GDF_start\bin\Debug\GDF_start.exe
+E:\Game Design\GDF 19.2\GDF_start\bin\Debug\GDF_start.pdb
+E:\Game Design\GDF 19.2\GDF_start\bin\Debug\GDF.pdb
+E:\Game Design\GDF 19.2\GDF_start\bin\Debug\GDF.xml
+E:\Game Design\GDF 19.2\GDF_start\bin\Debug\GDF.dll.config
+E:\Game Design\GDF 19.2\GDF_start\bin\Debug\UrhoSharp.xml
+E:\Game Design\GDF 19.2\GDF_start\obj\Debug\GDF_pacman.csprojAssemblyReference.cache
+E:\Game Design\GDF 19.2\GDF_start\obj\Debug\GDF_pacman.csproj.CoreCompileInputs.cache
+E:\Game Design\GDF 19.2\GDF_start\obj\Debug\GDF_pacman.csproj.CopyComplete
+E:\Game Design\GDF 19.2\GDF_start\obj\Debug\GDF_start.exe
+E:\Game Design\GDF 19.2\GDF_start\obj\Debug\GDF_start.pdb
+E:\Game Design\GDF 19.2\GDF_start\bin\Debug\GDF.dll
+E:\Game Design\GDF 19.2\GDF_start\bin\Debug\irrKlang.NET4.dll
+E:\Game Design\GDF 19.2\GDF_start\bin\Debug\UrhoSharp.dll

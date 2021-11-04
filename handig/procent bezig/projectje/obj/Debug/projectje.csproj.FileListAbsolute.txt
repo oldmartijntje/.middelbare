@@ -1,0 +1,6 @@
+C:\Users\Martijn v H\source\repos\projectje\projectje\bin\Debug\projectje.exe.config
+C:\Users\Martijn v H\source\repos\projectje\projectje\bin\Debug\projectje.exe
+C:\Users\Martijn v H\source\repos\projectje\projectje\bin\Debug\projectje.pdb
+C:\Users\Martijn v H\source\repos\projectje\projectje\obj\Debug\projectje.csprojAssemblyReference.cache
+C:\Users\Martijn v H\source\repos\projectje\projectje\obj\Debug\projectje.exe
+C:\Users\Martijn v H\source\repos\projectje\projectje\obj\Debug\projectje.pdb

@@ -1,0 +1,13 @@
+C:\Users\Martijn v H\source\repos\pokechat\pokechat\bin\Debug\pokechat.exe.config
+C:\Users\Martijn v H\source\repos\pokechat\pokechat\bin\Debug\pokechat.exe
+C:\Users\Martijn v H\source\repos\pokechat\pokechat\bin\Debug\pokechat.pdb
+C:\Users\Martijn v H\source\repos\pokechat\pokechat\obj\Debug\pokechat.csprojAssemblyReference.cache
+C:\Users\Martijn v H\source\repos\pokechat\pokechat\obj\Debug\pokechat.exe
+C:\Users\Martijn v H\source\repos\pokechat\pokechat\obj\Debug\pokechat.pdb
+E:\visual studio\pokechat\pokechat\bin\Debug\pokechat.exe.config
+E:\visual studio\pokechat\pokechat\bin\Debug\pokechat.exe
+E:\visual studio\pokechat\pokechat\bin\Debug\pokechat.pdb
+E:\visual studio\pokechat\pokechat\obj\Debug\pokechat.csprojAssemblyReference.cache
+E:\visual studio\pokechat\pokechat\obj\Debug\pokechat.csproj.CoreCompileInputs.cache
+E:\visual studio\pokechat\pokechat\obj\Debug\pokechat.exe
+E:\visual studio\pokechat\pokechat\obj\Debug\pokechat.pdb

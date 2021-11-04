@@ -1,0 +1,5 @@
+C:\Users\Martijn v H\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\Users\Martijn v H\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\Users\Martijn v H\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\Users\Martijn v H\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\Users\Martijn v H\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.pdb

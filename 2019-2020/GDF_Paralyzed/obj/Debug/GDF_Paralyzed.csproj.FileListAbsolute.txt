@@ -1,0 +1,13 @@
+T:\GDF_Paralyzed\bin\Debug\GDF_Paralyzed.exe.config
+T:\GDF_Paralyzed\bin\Debug\GDF_Paralyzed.exe
+T:\GDF_Paralyzed\bin\Debug\GDF_Paralyzed.pdb
+T:\GDF_Paralyzed\bin\Debug\irrKlang.NET4.dll
+T:\GDF_Paralyzed\bin\Debug\GDF.pdb
+T:\GDF_Paralyzed\bin\Debug\GDF.xml
+T:\GDF_Paralyzed\bin\Debug\GDF.dll.config
+T:\GDF_Paralyzed\bin\Debug\UrhoSharp.xml
+T:\GDF_Paralyzed\obj\Debug\GDF_Paralyzed.csprojAssemblyReference.cache
+T:\GDF_Paralyzed\obj\Debug\GDF_Paralyzed.csproj.CoreCompileInputs.cache
+T:\GDF_Paralyzed\obj\Debug\GDF_Paralyzed.csproj.CopyComplete
+T:\GDF_Paralyzed\obj\Debug\GDF_Paralyzed.exe
+T:\GDF_Paralyzed\obj\Debug\GDF_Paralyzed.pdb

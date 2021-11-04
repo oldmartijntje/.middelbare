@@ -1,0 +1,7 @@
+C:\Users\115918\source\repos\34\34\obj\Debug\34.csprojAssemblyReference.cache
+C:\Users\115918\source\repos\34\34\obj\Debug\34.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\34\34\bin\Debug\34.exe.config
+C:\Users\115918\source\repos\34\34\bin\Debug\34.exe
+C:\Users\115918\source\repos\34\34\bin\Debug\34.pdb
+C:\Users\115918\source\repos\34\34\obj\Debug\34.exe
+C:\Users\115918\source\repos\34\34\obj\Debug\34.pdb

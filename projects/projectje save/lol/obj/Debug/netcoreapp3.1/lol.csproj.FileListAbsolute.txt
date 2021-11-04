@@ -1,0 +1,24 @@
+C:\Users\115918\source\repos\lol\lol\bin\Debug\netcoreapp3.1\lol.exe
+C:\Users\115918\source\repos\lol\lol\bin\Debug\netcoreapp3.1\lol.deps.json
+C:\Users\115918\source\repos\lol\lol\bin\Debug\netcoreapp3.1\lol.runtimeconfig.json
+C:\Users\115918\source\repos\lol\lol\bin\Debug\netcoreapp3.1\lol.runtimeconfig.dev.json
+C:\Users\115918\source\repos\lol\lol\bin\Debug\netcoreapp3.1\lol.dll
+C:\Users\115918\source\repos\lol\lol\bin\Debug\netcoreapp3.1\lol.pdb
+C:\Users\115918\source\repos\lol\lol\obj\Debug\netcoreapp3.1\lol.csprojAssemblyReference.cache
+C:\Users\115918\source\repos\lol\lol\obj\Debug\netcoreapp3.1\lol.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\lol\lol\obj\Debug\netcoreapp3.1\lol.AssemblyInfoInputs.cache
+C:\Users\115918\source\repos\lol\lol\obj\Debug\netcoreapp3.1\lol.AssemblyInfo.cs
+C:\Users\115918\source\repos\lol\lol\obj\Debug\netcoreapp3.1\lol.dll
+C:\Users\115918\source\repos\lol\lol\obj\Debug\netcoreapp3.1\lol.pdb
+C:\Users\115918\source\repos\lol\lol\obj\Debug\netcoreapp3.1\lol.genruntimeconfig.cache
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\projects\projectje save\lol\obj\Debug\netcoreapp3.1\lol.csprojAssemblyReference.cache
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\projects\projectje save\lol\obj\Debug\netcoreapp3.1\lol.AssemblyInfoInputs.cache
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\projects\projectje save\lol\obj\Debug\netcoreapp3.1\lol.AssemblyInfo.cs
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\projects\projectje save\lol\obj\Debug\netcoreapp3.1\lol.dll
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\projects\projectje save\lol\obj\Debug\netcoreapp3.1\lol.pdb
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\projects\projectje save\lol\bin\Debug\netcoreapp3.1\lol.exe
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\projects\projectje save\lol\bin\Debug\netcoreapp3.1\lol.deps.json
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\projects\projectje save\lol\bin\Debug\netcoreapp3.1\lol.runtimeconfig.json
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\projects\projectje save\lol\bin\Debug\netcoreapp3.1\lol.runtimeconfig.dev.json
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\projects\projectje save\lol\bin\Debug\netcoreapp3.1\lol.dll
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\projects\projectje save\lol\bin\Debug\netcoreapp3.1\lol.pdb

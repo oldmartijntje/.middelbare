@@ -1,0 +1,26 @@
+C:\Users\Martijn v H\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\Users\Martijn v H\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\Users\Martijn v H\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\Users\Martijn v H\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.csprojAssemblyReference.cache
+C:\Users\Martijn v H\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\Users\Martijn v H\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
+E:\visual studio\rock paper scissors\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+E:\visual studio\rock paper scissors\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+E:\visual studio\rock paper scissors\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+E:\visual studio\rock paper scissors\ConsoleApp4\obj\Debug\ConsoleApp4.csprojAssemblyReference.cache
+E:\visual studio\rock paper scissors\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+E:\visual studio\rock paper scissors\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+E:\visual studio\rock paper scissors\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\doomed projects\rock paper scissors\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\doomed projects\rock paper scissors\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\doomed projects\rock paper scissors\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\doomed projects\rock paper scissors\ConsoleApp4\obj\Debug\ConsoleApp4.csprojAssemblyReference.cache
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\doomed projects\rock paper scissors\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\doomed projects\rock paper scissors\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
+C:\Users\oldma\Desktop\scripts\school ict\middelbre\doomed projects\rock paper scissors\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\Users\oldma\Desktop\scripts\school ict\middelbre\doomed projects\rock paper scissors\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\Users\oldma\Desktop\scripts\school ict\middelbre\doomed projects\rock paper scissors\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\Users\oldma\Desktop\scripts\school ict\middelbre\doomed projects\rock paper scissors\ConsoleApp4\obj\Debug\ConsoleApp4.csprojAssemblyReference.cache
+C:\Users\oldma\Desktop\scripts\school ict\middelbre\doomed projects\rock paper scissors\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+C:\Users\oldma\Desktop\scripts\school ict\middelbre\doomed projects\rock paper scissors\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\Users\oldma\Desktop\scripts\school ict\middelbre\doomed projects\rock paper scissors\ConsoleApp4\obj\Debug\ConsoleApp4.pdb

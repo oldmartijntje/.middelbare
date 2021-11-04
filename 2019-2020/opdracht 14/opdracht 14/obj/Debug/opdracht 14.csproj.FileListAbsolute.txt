@@ -1,0 +1,6 @@
+C:\Users\115918\source\repos\opdracht 14\opdracht 14\bin\Debug\opdracht 14.exe.config
+C:\Users\115918\source\repos\opdracht 14\opdracht 14\bin\Debug\opdracht 14.exe
+C:\Users\115918\source\repos\opdracht 14\opdracht 14\bin\Debug\opdracht 14.pdb
+C:\Users\115918\source\repos\opdracht 14\opdracht 14\obj\Debug\opdracht 14.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\opdracht 14\opdracht 14\obj\Debug\opdracht 14.exe
+C:\Users\115918\source\repos\opdracht 14\opdracht 14\obj\Debug\opdracht 14.pdb

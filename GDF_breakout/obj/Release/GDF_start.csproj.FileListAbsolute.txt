@@ -1,0 +1,2 @@
+C:\Users\david\Google Drive\C# GDF\Versie 2019\src19.43\GDF_start\obj\Release\GDF_start.csprojAssemblyReference.cache
+C:\Users\david\Google Drive\C# GDF\Versie 2019\src19.43\GDF_start\obj\Release\GDF_start.csproj.CoreCompileInputs.cache

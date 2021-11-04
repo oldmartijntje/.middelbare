@@ -1,0 +1,7 @@
+C:\Users\115918\source\repos\YEET\YEET\obj\Debug\YEET.csprojAssemblyReference.cache
+C:\Users\115918\source\repos\YEET\YEET\obj\Debug\YEET.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\YEET\YEET\bin\Debug\YEET.exe.config
+C:\Users\115918\source\repos\YEET\YEET\bin\Debug\YEET.exe
+C:\Users\115918\source\repos\YEET\YEET\bin\Debug\YEET.pdb
+C:\Users\115918\source\repos\YEET\YEET\obj\Debug\YEET.exe
+C:\Users\115918\source\repos\YEET\YEET\obj\Debug\YEET.pdb

@@ -1,0 +1,6 @@
+C:\Users\115918\source\repos\60\60\bin\Debug\60.exe.config
+C:\Users\115918\source\repos\60\60\bin\Debug\60.exe
+C:\Users\115918\source\repos\60\60\bin\Debug\60.pdb
+C:\Users\115918\source\repos\60\60\obj\Debug\60.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\60\60\obj\Debug\60.exe
+C:\Users\115918\source\repos\60\60\obj\Debug\60.pdb

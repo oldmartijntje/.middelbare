@@ -1,0 +1,7 @@
+E:\visual studio\maze\maze\bin\Debug\maze.exe.config
+E:\visual studio\maze\maze\bin\Debug\maze.exe
+E:\visual studio\maze\maze\bin\Debug\maze.pdb
+E:\visual studio\maze\maze\obj\Debug\maze.csprojAssemblyReference.cache
+E:\visual studio\maze\maze\obj\Debug\maze.csproj.CoreCompileInputs.cache
+E:\visual studio\maze\maze\obj\Debug\maze.exe
+E:\visual studio\maze\maze\obj\Debug\maze.pdb

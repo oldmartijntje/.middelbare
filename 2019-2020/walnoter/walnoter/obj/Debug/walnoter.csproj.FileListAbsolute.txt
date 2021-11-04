@@ -1,0 +1,2 @@
+C:\Users\oldma\Desktop\scripts\school ict\middelbre\2019-2020\walnoter\walnoter\obj\Debug\walnoter.csprojAssemblyReference.cache
+C:\Users\oldma\Desktop\scripts\school ict\middelbre\2019-2020\walnoter\walnoter\obj\Debug\walnoter.csproj.CoreCompileInputs.cache

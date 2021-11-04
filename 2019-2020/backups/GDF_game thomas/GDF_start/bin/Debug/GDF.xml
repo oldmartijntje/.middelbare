@@ -1,0 +1,1553 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GDF</name>
+    </assembly>
+    <members>
+        <member name="M:GDF.Text2d.SetText(System.String)">
+            <summary>
+            Stel de weer te geven tekst in
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="M:GDF.Text2d.SetFont(System.String,System.Single)">
+            <summary>
+            Stel een lettertype en grootte in
+            </summary>
+            <param name="fontname">Een bestand uit de map Data/Fonts (inclusief extensie)</param>
+            <param name="size">Wordt vermenigvuldigd met CurrentRoom.UIWidth</param>
+        </member>
+        <member name="M:GDF.Text2d.SetFont(System.Single)">
+            <summary>
+            Stel de grootte van het huidige lettertype in
+            </summary>
+            <param name="size">Wordt vermenigvuldigd met CurrentRoom.UIWidth</param>
+        </member>
+        <member name="M:GDF.Text2d.SetFont(System.String)">
+            <summary>
+            Stel een ander lettertype in
+            </summary>
+            <param name="fontname">Een bestand uit de map Data/Fonts (inclusief extensie)</param>
+        </member>
+        <member name="F:GDF.Image2d.Rotation">
+            <summary>
+            De rotatie van de afbeelding in graden
+            </summary>
+        </member>
+        <member name="M:GDF.Image2d.SetImage(System.String)">
+            <summary>
+            Geef een bestandsnaam op uit de map Data/Images
+            Inclusief extensie 
+            </summary>
+            <param name="filename"></param>
+        </member>
+        <member name="M:GDF.Image2d.SetBlendMode(Urho.BlendMode)">
+            <summary>
+            Stel in hoe de afbeelding op het scherm wordt gemengd met het geen dat achter de afbeelding te zien is
+            </summary>
+            <param name="mode"></param>
+        </member>
+        <member name="P:GDF.gdf_Room.gdf_RoomCamera.Position">
+            <summary>
+            De positie van de Camera. 
+            Wordt automatisch ingesteld wanneer je hebt gekozen om de camera First- of Thirdperson in te stellen.
+            </summary>
+        </member>
+        <member name="P:GDF.gdf_Room.gdf_RoomCamera.Rotation">
+            <summary>
+            De rotatie van de Camera.
+            Wordt automatisch ingesteld wanneer je hebt gekozen om de camera First- of Thirdperson in te stellen.
+            </summary>
+        </member>
+        <member name="P:GDF.gdf_Room.gdf_RoomCamera.ClippingNearDistance">
+            <summary>
+            Alles wat binnen deze afstand van de camera komt wordt niet getekend.
+            </summary>
+        </member>
+        <member name="P:GDF.gdf_Room.gdf_RoomCamera.ClippingFarDistance">
+            <summary>
+            Alles wat buiten deze afstand van de camera komt wordt niet getekend.
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Room.gdf_RoomCamera.SetCameraMode_Free">
+            <summary>
+            Stel de camera zo in dat je hem zelf aan de hand van de variabeles Position en Rotation kan instellen.
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Room.gdf_RoomCamera.SetCameraMode_FirstPerson(GDF.Instance,System.Single,System.Single,System.Boolean,System.Boolean)">
+            <summary>
+            Stel de camera als first person camera in. 
+            Volgt automatisch de positie van het ingestelde voorwerp, en draait mee aan de hand van de FacingDirection van het voorwerp.
+            </summary>
+            <param name="target">Het te volgen voorwerp</param>
+            <param name="yOffset">Verhoging van de camera ten opzichte van het voorwerp</param>
+            <param name="xRotation">Om meer omhoog of omlaag te kijken</param>
+            <param name="lockXrotation">Beweeg mee met FacingDirection.X</param>
+            <param name="lockZrotation">Beweeg mee met FacingDirection.Z</param>
+        </member>
+        <member name="M:GDF.gdf_Room.gdf_RoomCamera.SetCameraMode_ThirdPerson(GDF.Instance,System.Single,System.Single,System.Single,System.Boolean,System.Boolean)">
+            <summary>
+            Stel de camera als third person camera in.
+            Volgt automatisch de positie van het ingestelde voorwerp, en draait mee aan de hand van de FacingDirection van het voorwerp.
+            </summary>
+            <param name="target">Het te volgen voorwerp</param>
+            <param name="yOffset">Verhoging van de camera</param>
+            <param name="distance">De afstand tussen de camera en het te volgen voorwerp</param>
+            <param name="rotation_X">Om meer omhoog of omlaag te kijken</param>
+            /// <param name="lockXrotation">Beweeg mee met FacingDirection.X</param>
+            <param name="lockZrotation">Beweeg mee met FacingDirection.Z</param>
+        </member>
+        <member name="M:GDF.gdf_Room.gdf_RoomCamera.SetCameraMode_LookAt(GDF.Instance,Urho.Vector3,System.Single)">
+            <summary>
+            Stel de camera zo in dat deze vanaf zijn positie naar het opgegeven voorwerp blijft kijken.
+            </summary>
+            <param name="target">Het voorwerp waar de camera op mikt</param>
+            <param name="fromPosition">De positie van de camera</param>
+            <param name="yOffset">Verhoging van de camera</param>
+        </member>
+        <member name="M:GDF.gdf_Room.gdf_RoomCamera.SetCameraMode_Controlled">
+            <summary>
+            Stel de camera zon in dat je deze met het toetsenbord kan bedienen.
+            Gebruik T/F/G/H, I/J/K/L en Y/U om de camera te bedienen.
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Room.gdf_RoomCamera.FlowToNewPosition(System.Int32)">
+            <summary>
+            Laat de camera in een vloeiende beweging overgaan tot zijn nieuwe positie/rotatie.
+            </summary>
+            <param name="steps">De hoeveelheid frames waarin de camera op zijn nieuwe plek gearriveerd moet zijn</param>
+        </member>
+        <member name="F:GDF.gdf_Room.gdf_RoomLight.Color">
+            <summary>
+            De kleur van het zonlicht.
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Room.gdf_RoomLight.Direction">
+            <summary>
+            De richting van het zonlicht.
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Room.gdf_RoomLight.Brightness">
+            <summary>
+            De sterkte van het zonlicht.
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Room.gdf_RoomLight.Ambient">
+            <summary>
+            De sterkte van het omgevingslicht.
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Room.gdf_RoomLight.SetFog(System.Single,System.Single,Urho.Color)">
+            <summary>
+            Stel mist in.
+            Het gebied waarin de mist wordt getoond is gelijk aan Room.Size
+            </summary>
+            <param name="near"></param>
+            <param name="far"></param>
+            <param name="color"></param>
+        </member>
+        <member name="F:GDF.gdf_Element2d.Position">
+            <summary>
+            De positie op het UI-grid. Standaard is het UI-grid 32 breed.
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Element2d.Size">
+            <summary>
+            De grootte op het UI-grid. Standaard is het UI-grid 32 breed.
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Element2d.Offset">
+            <summary>
+            Verschuif de afbeelding/tekst ten opzichte van zijn positie
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Element2d.Depth">
+            <summary>
+            Hoe hoger deze waarde, hoe meer dit element naar de voorgrond komt
+            </summary>
+        </member>
+        <member name="P:GDF.gdf_Element2d.Center">
+            <summary>
+            Het middenpunt van het element (werkt alleen wanneer Size correct is ingesteld)
+            </summary>
+        </member>
+        <member name="P:GDF.gdf_Element2d.IsDeleted">
+            <summary>
+            Is dit element verwijderd uit de CurrentRoom?
+            </summary>
+        </member>
+        <member name="P:GDF.gdf_Element2d.MouseOnElement">
+            <summary>
+            Staat de muis momenteel op dit element?
+            </summary>
+        </member>
+        <member name="P:GDF.gdf_Element2d.MouseButtonLeft">
+            <summary>
+            Wordt er met de linkermuisknop op dit element geklikt?
+            </summary>
+        </member>
+        <member name="P:GDF.gdf_Element2d.MouseButtonMiddle">
+            <summary>
+            Wordt er met de middelste muisknop op dit element geklikt?
+            </summary>
+        </member>
+        <member name="P:GDF.gdf_Element2d.MouseButtonRight">
+            <summary>
+            Wordt er met de rechtermuisknop op dit element geklikt?
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Element2d.Destroy">
+            <summary>
+            Verwijder dit element uit de room
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Element2d.SetColor(Urho.Color)">
+            <summary>
+            Stel een kleur in
+            </summary>
+            <param name="color"></param>
+        </member>
+        <member name="T:GDF.DataBase">
+            <summary>
+            Gebruik deze class om gegevens te bewaren op de harde schijf
+            </summary>
+        </member>
+        <member name="P:GDF.DataBase.Name">
+            <summary>
+            De naam van de database.
+            </summary>
+        </member>
+        <member name="M:GDF.DataBase.#ctor(System.String)">
+            <summary>
+            Creëer een object van DataBase waarmee je gegevens kan opslaan of laden.
+            </summary>
+            <param name="name">De naam van de database</param>
+        </member>
+        <member name="M:GDF.DataBase.Save">
+            <summary>
+            Sla de gegevens van de database op de harde schijf op.
+            Komt terecht in: Data/DB
+            </summary>
+        </member>
+        <member name="M:GDF.DataBase.Load">
+            <summary>
+            Laad de gegevens van deze database van de harde schijf.
+            Huidige gegevens worden gewist.
+            Zoekt het bestand in de map Data/DB
+            </summary>
+        </member>
+        <member name="M:GDF.DataBase.Delete">
+            <summary>
+            Wis de database van de harde schijf.
+            Zoekt in de map Data/DB
+            </summary>
+        </member>
+        <member name="M:GDF.DataBase.ExistsOnHD">
+            <summary>
+            Bestaan het database-bestand op de harde schijf?
+            Zoekt in de map Data/DB
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:GDF.Enums.UDPsynchronisationMode.Slave">
+            <summary>
+            Wordt alleen intern gebruikt.
+            </summary>
+        </member>
+        <member name="F:GDF.Enums.UDPsynchronisationMode.SendOnce">
+            <summary>
+            Het voorwerp wordt één keer verzonden over het netwerk, maar daarna niet meer geupdated.
+            </summary>
+        </member>
+        <member name="F:GDF.Enums.UDPsynchronisationMode.SendContinually">
+            <summary>
+            Het voorwerp wordt verzonden over het netwerk, en blijft daarna geupdated.
+            </summary>
+        </member>
+        <member name="F:GDF.Game.Settings.UDP.HostNetwork">
+            <summary>
+            Wordt gebruikt om het juiste IP-address te vinden tussen meerdere netwerkadapters.
+            </summary>
+        </member>
+        <member name="F:GDF.Game.Settings.UDP.MessageInterval">
+            <summary>
+            Bepaalt om de hoeveel frames er een update moet worden verzonden naar de verbonden computers.
+            </summary>
+        </member>
+        <member name="F:GDF.Game.Settings.UDP.Port">
+            <summary>
+            De poort waarover een UDP verbinding wordt gemaakt.
+            </summary>
+        </member>
+        <member name="F:GDF.Game.Settings.UDP.BroadcastAddress">
+            <summary>
+            De IP-adressen waar berichten naar toe worden verzonden. 255 staat voor 'alles mogelijkheden'.
+            </summary>
+        </member>
+        <member name="F:GDF.Game.Settings.UDP.StringLength">
+            <summary>
+            Bepaalt hoeveel characters van een string worden verstuurd over het netwerk.
+            </summary>
+        </member>
+        <member name="M:GDF.Game.Settings.UDP.Auto">
+            <summary>
+            Stel automatisch het HostNetwork en BroadcastAddress in op de eerste ethernet verbinding die wordt gevonden.
+            </summary>
+        </member>
+        <member name="M:GDF.Game.GotoRoom(System.String)">
+            <summary>
+            Ga naar een room die al eerder is gestart.
+            </summary>
+            <param name="name">De systeemnaam van de room</param>
+        </member>
+        <member name="M:GDF.Game.GotoNewRoom(System.String,System.Type)">
+            <summary>
+            Maak een nieuwe room, en ga hier naartoe.
+            </summary>
+            <param name="name">De systeemnaam van de room (hiermee kan je de room later weer terugvinden)</param>
+            <param name="roomType">De classname, bijvoorbeeld: typeof(room_test)</param>
+        </member>
+        <member name="M:GDF.Game.RoomExists(System.String)">
+            <summary>
+            Bestaat er een room met de ingevoerde systeemnaam?
+            </summary>
+            <param name="name">De systeemnaam van de room</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Game.RoomDelete(System.String)">
+            <summary>
+            Verwijder een room uit het geheugen
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:GDF.Game.RoomDelete(GDF.Room)">
+            <summary>
+            Verwijder een room uit het geheugen
+            </summary>
+            <param name="room"></param>
+        </member>
+        <member name="M:GDF.Game.RoomRestart(System.String)">
+            <summary>
+            Stel een room in op zijn beginwaarden
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:GDF.Game.Input.GetKey(Urho.Key)">
+            <summary>
+            Is een bepaalde toets ingedrukt (blijvend)?
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Game.Input.GetKeyPress(Urho.Key)">
+            <summary>
+            Wordt er een bepaalde toets ingedrukt?
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:GDF.gdf_Instance.gdf_InstanceCollider.Shape">
+            <summary>
+            De vorm van de collider bepaalt of het voorwerp kan botsen met andere voorwerpen. NoShape betekent dat het niet kan botsen. 
+            </summary>
+        </member>
+        <member name="P:GDF.gdf_Instance.gdf_InstanceCollider.Size">
+            <summary>
+            De grootte van de collider
+            </summary>
+        </member>
+        <member name="P:GDF.gdf_Instance.gdf_InstanceCollider.Visible">
+            <summary>
+            Als dit op true wordt ingesteld zie je de vorm van de collider in het groen.
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceCollider.#ctor(GDF.Instance)">
+            <summary>
+            Het aanmaken van de collider gebeurt automatisch. Gebruik deze constructor dus niet.
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceCollider.SetSphere(System.Single)">
+            <summary>
+            Stel de collider in als een bol
+            </summary>
+            <param name="diameter"></param>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceCollider.SetBox(Urho.Vector3)">
+            <summary>
+            Stel de collider in als een kubus
+            </summary>
+            <param name="size"></param>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceCollider.SetBox">
+            <summary>
+            Stel de collider in als een kubus met een grootte van 1
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Instance.gdf_InstanceLight.CastsShadows">
+            <summary>
+            Projecteert dit licht schaduws?
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Instance.gdf_InstanceLight.Color">
+            <summary>
+            De kleur van het licht
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Instance.gdf_InstanceLight.Brightness">
+            <summary>
+            De helderheid van het licht
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Instance.gdf_InstanceLight.Range">
+            <summary>
+            De maximale afstand van het licht
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Instance.gdf_InstanceLight.Offset">
+            <summary>
+            Op welke positie het licht wordt geprojecteerd ten opzichte van de positie van het voorwerp
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceLight.SetEnabled">
+            <summary>
+            Schakel het licht in
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceLight.SetDisabled">
+            <summary>
+            Schakel het licht uit
+            </summary>
+        </member>
+        <member name="P:GDF.gdf_Instance.gdf_InstanceModel.Shape">
+            <summary>
+            De vorm van dit model.
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Instance.gdf_InstanceModel.Size">
+            <summary>
+            De grootte van het model. Standaard 1
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Instance.gdf_InstanceModel.DrawShadow">
+            <summary>
+            Tekent dit model schaduwen op andere modellen?
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Instance.gdf_InstanceModel.Rotation">
+            <summary>
+            De rotatie van het voorwerp (komt bovenop de FacingDirection van het voorwerp)
+            </summary>
+        </member>
+        <member name="F:GDF.gdf_Instance.gdf_InstanceModel.Offset">
+            <summary>
+            De verplaatsing van het model ten opzichte van de positie van het voorwerp
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.#ctor(GDF.Instance)">
+            <summary>
+            Het aanmaken van het model gaat automatisch. Gebruik deze constructor dus niet.
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.SetBox">
+            <summary>
+            Stel in als een kubus
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.SetSphere">
+            <summary>
+            Stel in als een bol
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.SetCone">
+            <summary>
+            stel in als een kegel
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.SetCylinder">
+            <summary>
+            Stel in als een cilinder
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.SetTorus">
+            <summary>
+            Stel in als een donut
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.SetHalfSphere">
+            <summary>
+            Stel in als een halve bol
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.SetMdl(System.String,System.Int32)">
+            <summary>
+            Stel in als een MDL-bestand (deze exporteer je vanuit Blender).
+            </summary>
+            <param name="mdlFile">Een bestand uit de map Data/Models (inclusief extensie)</param>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.Pivot(Urho.Vector3,System.Single)">
+            <summary>
+            Geef het model een nieuw draaipunt.
+            Alleen de X en Y as worden hiervoor gebruikt
+            Verander FacingDirection.X en FacingDirection.Y om te draaien.
+            </summary>
+            <param name="direction">De richting waarin het draaipunt wordt gemaakt (relatief aan FacingDirection)</param>
+            <param name="length">Hoever het nieuwe draaipunt van het originele middelpunt af staat</param>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.Pivot(System.Single)">
+            <summary>
+            Laat het model om zijn originele middelpunt heendraaien.
+            Verander FacingDirection.X en FacingDirection.Y om te draaien.
+            </summary>
+            <param name="length">Hoever weg het model van het originele middelpunt wordt getoond.</param>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.SetTexture(System.String,System.Int32)">
+            <summary>
+            Stel een afbeelding in waarmee het model wordt omkleed. Bijvoorbeeld: SetTexture(Textures.GetTexture("grass.jpg"));
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.SetColor(Urho.Color)">
+            <summary>
+            Geef het model een nieuwe kleur
+            </summary>
+            <param name="color"></param>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.SetMaterialList(System.String)">
+            <summary>
+            Stel een materialenlijst in (deze kan je exporteren met Blender).
+            Kan gebruikt worden om een model meerdere kleuren te geven.
+            </summary>
+            <param name="filename">Naam van de lijst (inclusief extensie)</param>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.SetMaterial(GDF.Enums.Material,Urho.Color,Urho.Color,System.Byte,System.Byte)">
+            <summary>
+            Stel het materiaal van het model in.
+            </summary>
+            <param name="material">Type materiaal</param>
+            <param name="color">Basiskleur van het materiaal</param>
+            <param name="reflection">Kleur van de reflectie van licht op dit voorwerp (standaard: wit, uitgeschakeld: zwart)</param>
+            <param name="reflectiveStrength">De sterkte van de reflectie</param>
+            <param name="reflectionSmoothness">De gladheid van het materiaal. Hoe minder glad, hoe meer de reflectie wordt verspreid over het materiaal.</param>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.SetMaterial(GDF.Enums.Material,Urho.Color)">
+            <summary>
+            Stel het materiaal van het model in.
+            </summary>
+            <param name="material">Type materiaal</param>
+            <param name="color">Basiskleur van het materiaal</param>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.SetMaterial(GDF.Enums.Material)">
+            <summary>
+            Stel het materiaal van het model in.
+            </summary>
+            <param name="material">Type materiaal</param>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.Delete">
+            <summary>
+            Verwijder het model. Je kan later het model opnieuw instellen.
+            </summary>
+        </member>
+        <member name="M:GDF.gdf_Instance.gdf_InstanceModel.ShowInsideFaces">
+            <summary>
+            De binnenkant van een model is standaard niet zichtbaar om performance te verbeteren.
+            Deze methode laat de binnenkant van een model wel zien.
+            </summary>
+        </member>
+        <member name="P:GDF.Instance.X">
+            <summary>
+            De X positie van dit voorwerp.
+            </summary>
+        </member>
+        <member name="P:GDF.Instance.Y">
+            <summary>
+            De Y positie van dit voorwerp. Positief is omhoog, negatief omlaag.
+            </summary>
+        </member>
+        <member name="P:GDF.Instance.Z">
+            <summary>
+            De Z positie van dit voorwerp.
+            </summary>
+        </member>
+        <member name="P:GDF.Instance._2D_Direction">
+            <summary>
+            De richting in graden waarin het voorwerp over de bodem beweegt.
+            </summary>
+        </member>
+        <member name="F:GDF.Instance._2D_Direction_previous">
+            <summary>
+            De richting in graden waarin het voorwerp over de bodem bewoog, tijdens het vorige frame
+            </summary>
+        </member>
+        <member name="P:GDF.Instance._2D_SpeedInDirection">
+            <summary>
+            De snelheid waarmee het voorwerp in haar richting beweegt
+            </summary>
+        </member>
+        <member name="F:GDF.Instance.Friction">
+            <summary>
+            Wrijving vermindert de snelheid en de rotatiesnelheid van dit voorwerp. Stel in tussen 0 en 1. 
+            </summary>
+        </member>
+        <member name="F:GDF.Instance.Gravity">
+            <summary>
+            De zwaartekracht laat de Y snelheid afnemen.
+            </summary>
+        </member>
+        <member name="F:GDF.Instance.FacingDirection">
+            <summary>
+            De richting waarheen dit voorwerp kijkt.
+            Wordt automatisch gebruikt door de Camera.
+            </summary>
+        </member>
+        <member name="F:GDF.Instance.Speed">
+            <summary>
+            De snelheid van dit voorwerp in de X, Y en Z as.
+            </summary>
+        </member>
+        <member name="F:GDF.Instance.Position">
+            <summary>
+            De X, Y en Z positie van dit voorwerp.
+            </summary>
+        </member>
+        <member name="F:GDF.Instance.StartPosition">
+            <summary>
+            De positie waarop dit voorwerp werd aangemaakt toen de room startte.
+            </summary>
+        </member>
+        <member name="F:GDF.Instance.Position_previous">
+            <summary>
+            De positie die dit voorwerp het vorige frame had. 
+            </summary>
+        </member>
+        <member name="F:GDF.Instance._2D_DirectionSpeed">
+            <summary>
+            De snelheid waarmee dit voorwerp roteert in de X, Y en Z as.
+            </summary>
+        </member>
+        <member name="F:GDF.Instance.FacingDirectionSpeed">
+            <summary>
+            De hoeveelheid graden die elk frame bij FacingDirection worden opgeteld.
+            </summary>
+        </member>
+        <member name="P:GDF.Instance.Collider">
+            <summary>
+            Bewerk de collider van dit voorwerp.
+            </summary>
+        </member>
+        <member name="P:GDF.Instance.Model">
+            <summary>
+            Bewerk het model (uiterlijk) van dit voorwerp.
+            </summary>
+        </member>
+        <member name="P:GDF.Instance.Light">
+            <summary>
+            Bewerk het licht van dit voorwerp.
+            </summary>
+        </member>
+        <member name="P:GDF.Instance.Id">
+            <summary>
+            Het systeemnummer van dit voorwerp.
+            </summary>
+        </member>
+        <member name="F:GDF.Instance.gdf_IsDestroyed">
+            <summary>
+            Is dit voorwerp verwijderd?
+            </summary>
+        </member>
+        <member name="F:GDF.Instance.ExistsBetweenRooms">
+            <summary>
+            Moet dit voorwerp automatisch naar andere Rooms worden verplaatst?
+            Werkt alleen wanneer de huidige room niet eerst wordt verwijderd.
+            </summary>
+        </member>
+        <member name="P:GDF.Instance._2D_OutsideRoom">
+            <summary>
+            Is de positie van dit voorwerp buiten de Scale van de Room? De Size van het voorwerp wordt meegerekend. 
+            </summary>
+        </member>
+        <member name="M:GDF.Instance.#ctor(System.UInt32)">
+            <summary>
+            Gebruik Room.InstanceCreate(...) om een Instance te maken, en niet deze constructor.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:GDF.Instance.Update">
+            <summary>
+            Deze methode updatet het model, de collider en het licht van dit voorwerp.
+            Deze methode wordt automatisch na de step-functie uitgevoerd.
+            Je kan hem ook zelf aanroepen om direct een update uit te voeren.
+            </summary>
+        </member>
+        <member name="M:GDF.Instance.Start">
+            <summary>
+            Alles wat moet gebeuren wanneer het voorwerp in de wereld verschijnt.
+            </summary>
+        </member>
+        <member name="M:GDF.Instance.Step">
+            <summary>
+            Alles wat dit voorwerp elk frame moet uitvoeren.
+            </summary>
+        </member>
+        <member name="M:GDF.Instance.EndStep">
+            <summary>
+            Alles wat dit voorwerp na elk frame moet uitvoeren.
+            </summary>
+        </member>
+        <member name="M:GDF.Instance.OnDestroy">
+            <summary>
+            Alles wat het voorwerp moet uitvoeren wanneer het wordt vernietigd.
+            </summary>
+        </member>
+        <member name="M:GDF.Instance.Destroy(System.Boolean)">
+            <summary>
+            Verwijder het voorwerp uit de room
+            </summary>
+            <param name="callOnDestroy"></param>
+        </member>
+        <member name="M:GDF.Instance._2D_MotionSet(System.Single,System.Single)">
+            <summary>
+            Stel de snelheid van dit voorwerp over de vloer in, in een bepaalde richting.
+            </summary>
+            <param name="direction">De richting in graden</param>
+            <param name="speed">De vergroting of verkleining van de snelheid</param>
+        </member>
+        <member name="M:GDF.Instance._2D_MotionAdd(System.Single,System.Single)">
+            <summary>
+            Verander de snelheid over de vloer in een bepaalde richting in graden.
+            </summary>
+            <param name="direction">De richting in graden</param>
+            <param name="speed">De snelheid in de opgegeven richting</param>
+        </member>
+        <member name="M:GDF.Instance._2D_PositionAdd(System.Single,System.Single)">
+            <summary>
+            Schuif het voorwerp een stuk op over de vloer in een bepaalde richting
+            </summary>
+            <param name="direction">De richting in graden</param>
+            <param name="length">Hoever het voorwerp moet worden opgeschoven</param>
+        </member>
+        <member name="M:GDF.Instance._2D_PositionAddAvoidCollision(System.Type,System.Single,System.Single,System.Boolean,System.Single,System.Boolean)">
+            <summary>
+            Schuif het voorwerp een stuk op de vloer in een bepaalde richting, en voorkom daarbij dat het tegen het opgegeven type botst
+            </summary>
+            <param name="type">Het type voorwerp dat moet worden vermeden</param>
+            <param name="_2d_direction">De richting over de grond in graden</param>
+            <param name="length">De lengte van de verschuiving</param>
+            <param name="friction">Moet het voorwerp afremmen wanneer het haakser op een te vermeiden voorwerp botst?</param>
+            <param name="accuracy">Hoe netjes het te vermeiden type wordt ontweken. 1 of kleiner = uitgeschakeld</param>
+            <param name="includeChildren">Moeten overervende voorwerpen van het te vermeiden type ook worden vermeden?</param>
+        </member>
+        <member name="M:GDF.Instance._2D_PositionAddAvoidCollision(GDF.Instance,System.Single,System.Single,System.Boolean,System.Single)">
+            <summary>
+            Schuif het voorwerp een stuk op de vloer in een bepaalde richting, en voorkom daarbij dat het tegen het opgegeven voorwerp botst
+            </summary>
+            <param name="instance">Het voorwerp dat moet worden vermeden</param>
+            <param name="_2d_direction">De richting over de grond in graden</param>
+            <param name="length">De lengte van de verschuiving</param>
+            <param name="friction">Moet het voorwerp afremmen wanneer het haakser op een te vermeiden voorwerp botst?</param>
+            <param name="accuracy">Hoe netjes het te vermeiden voorwerp wordt ontweken. 1 of kleiner = uitgeschakeld</param>
+        </member>
+        <member name="M:GDF.Instance.GetKey(Urho.Key)">
+            <summary>
+            Is een bepaalde toets ingedrukt (blijvend)?
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance.GetKeyPress(Urho.Key)">
+            <summary>
+            Wordt er een bepaalde toets ingedrukt?
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance.IsChildOf(System.Type)">
+            <summary>
+            Erft dit voorwerp over van het opgegeven type?
+            </summary>
+            <param name="type">Bijvoorbeeld: typeof(instance_ball)</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance.IsParentOf(System.Type)">
+            <summary>
+            Erft het opgegeven type over van dit voorwerp?
+            </summary>
+            <param name="type">Bijvoorbeeld: typeof(instance_ball)</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance.DetectCollisions(System.Type,System.Boolean)">
+            <summary>
+            Geef een lijst terug met alle voorwerpen van het opgegeven type waar momenteel mee wordt gebotst.
+            </summary>
+            <param name="type">Bijvoorbeeld: typeof(instance_wall)</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance.DistanceFromCamera">
+            <summary>
+            Hoever is dit voorwerp van de camera verwijderd?
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance.DetectCollision(GDF.Instance)">
+            <summary>
+            Checkt of dit voorwerp momenteel met het opgegeven voorwerp botst.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance.DetectCollision(System.Type,System.Boolean)">
+            <summary>
+            Checkt of dit voorwerp momenteel met een voorwerp van het opgegeven type botst.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance._2D_DirectionFree(System.Single,System.Single,System.Type,Urho.Vector3,System.Boolean)">
+            <summary>
+            Is de opgegeven richting vrij van voorwerpen van het opgegeven type?
+            </summary>
+            <param name="direction">De richting in graden</param>
+            <param name="forward">De lengte in de richting waarop vooruit wordt gekeken</param>
+            <param name="type">Bijvoorbeeld: typeof(instance_wall)</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance._2D_CollisionsInDirection(System.Single,System.Single,System.Type,Urho.Vector3,System.Boolean)">
+            <summary>
+            Stel dat dit voorwerp een stap zou maken in de opgegeven richting, waar zou het dan tegenop botsen?
+            </summary>
+            <param name="direction">De richting in graden</param>
+            <param name="forward">De grootte van de stap</param>
+            <param name="type">Welke voorwerpen worden gecheckt</param>
+            <param name="includeChildren">Ook voorwerpen checken die overerven van het opgegeven type?</param>
+            <param name="relativePosition">Verander de positie waarin er op collisions wordt gecheckt</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance.PositionFree(Urho.Vector3,System.Type,System.Boolean,System.Boolean)">
+            <summary>
+            Controleert of de collider van het voorwerp op de opgegeven plek niet met ander voorwerp botst
+            </summary>
+            <param name="position">De te controleren positie</param>
+            <param name="type">Welke voorwerpen er worden gecheckt</param>
+            <param name="relativeToOwnPosition">Wordt de opgegeven positie bij de eigen positie opgeteld?</param>
+            <param name="includeChildren">Ook voorwerpen checken die overerven van het opgegeven type?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance.CollisionsAtPosition(Urho.Vector3,System.Type,System.Boolean,System.Boolean)">
+            <summary>
+            Geeft een lijst terug van voorwerpen waar dit voorwerp mee zal botsen op de gegeven positie
+            </summary>
+            <param name="position"></param>
+            <param name="type"></param>
+            <param name="relativeToOwnPosition">Is de opgegeven positie relatief tot de eigen positie?</param>
+            <param name="includeChildren"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance.DetectNearestRaycastIntersection(Urho.Vector3,System.Type,System.Single,System.Boolean)">
+            <summary>
+            Schiet een lijn in een opgegeven voorwerp, en kijk deze door een voorwerp van het opgegeven type heen gaat.
+            </summary>
+            <param name="direction">De richting in graden</param>
+            <param name="type">Bijvoorbeeld: typeof(instance_wall)</param>
+            <param name="maxDistance">De maximale meetafstand</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns>null als er niets gevonden is of het gevonden voorwerp</returns>
+        </member>
+        <member name="M:GDF.Instance.DetectNearestRaycastIntersection(Urho.Vector3,System.Type,Urho.Vector3@,System.Single,System.Boolean)">
+            <summary>
+            Schiet een lijn in een opgegeven richting, en geef het dichtbijzijnste voorwerp terug waar deze lijn doorheen gaat.
+            </summary>
+            <param name="direction">De richting in graden</param>
+            <param name="type">Bijvoorbeeld: typeof(instance_wall)</param>
+            <param name="intersection">Haal de precieze plek op van waar de lijn het voorwerp kruist</param>
+            <param name="maxDistance">De maximale meetafstand</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance.DetectRaycastIntersections(Urho.Vector3,System.Type,System.Single,System.Boolean)">
+            <summary>
+            Schiet een lijn in een opgegeven richting, en geef een lijst terug van alle door de lijn geraakte voorwerpen, gesorteerd op afstand van de oorsprong.
+            </summary>
+            <param name="direction">De richting in graden</param>
+            <param name="type">Bijvoorbeeld: typeof(instance_wall)</param>
+            <param name="maxDistance">De maximale meetafstand</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance.InstanceNearest(System.Type,System.Boolean)">
+            <summary>
+            Welke instantie van het opgegeven type is het dichtstbij? 
+            </summary>
+            <param name="type">Welk type wordt gecheckt</param>
+            <param name="includeChildren">Ook voorwerpen checken die overerven van het opgegeven type?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance.InstanceFurthest(System.Type,System.Boolean)">
+            <summary>
+            Welke instantie van het opgegeven type is het verst weg?
+            </summary>
+            <param name="type">Welk type wordt gecheckt</param>
+            <param name="includeChildren">Ook voorwerpen checken die overerven van het opgegeven type?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance._2D_DistanceToPoint(System.Single,System.Single)">
+            <summary>
+            Hoever is staat het opgegeven punt af van het opgegeven punt?
+            "Vergeet" de Y-posities
+            </summary>
+            <param name="X"></param>
+            <param name="Z"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance._2D_DistanceToInstance(GDF.Instance)">
+            <summary>
+            Geeft aan hoever een andere instantie van dit voorwerp af staat.
+            "Vergeet" de Y-posities
+            </summary>
+            <param name="instance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Instance._2D_DistanceToInstance(System.Type,System.Boolean)">
+            <summary>
+            Geeft aan hoever een het dichtbijzijnste voorwerp van het opgegeven type van dit voorwerp afstaat.
+            "Vergeet" de Y-posities
+            </summary>
+            <param name="type"></param>
+            <param name="includeChildren"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Methods.Flow(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Laat een float stapsgewijs in een ander getal veranderen
+            </summary>
+            <param name="from"></param>
+            <param name="to"></param>
+            <param name="steps">In hoeveel frames het getal veranderd moet zijn</param>
+            <param name="minimalDifference">Het minimale verschil tussen FROM en TO voordat de flow wordt afgebroken</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Methods.FlowPosition(Urho.Vector3,Urho.Vector3,System.Single,System.Single)">
+            <summary>
+            Laat de positie stapsgewijs in een andere positie veranderen
+            </summary>
+            <param name="from"></param>
+            <param name="to"></param>
+            <param name="steps">In hoeveel frames het getal veranderd moet zijn</param>
+            <param name="minimalDifference">Het minimale verschil tussen FROM en TO voordat de flow wordt afgebroken</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Methods.FlowRotation(Urho.Vector3,Urho.Vector3,System.Single,System.Single)">
+            <summary>
+            Laat de rotatie stapsgewijs in een andere positie veranderen
+            </summary>
+            <param name="from"></param>
+            <param name="to"></param>
+            <param name="steps">In hoeveel frames het getal veranderd moet zijn</param>
+            <param name="minimalDifference">Het minimale verschil tussen FROM en TO voordat de flow wordt afgebroken</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Methods.CorrectAngle(System.Single)">
+            <summary>
+            Corrigeer de hoek wanneer deze kleiner dan 0 of groter dan 360 is
+            </summary>
+            <param name="angle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Methods.CorrectRotation(Urho.Vector3)">
+            <summary>
+            Corrigeer de rotatie wanneer deze kleiner dan 0 of groter dan 360 is
+            </summary>
+            <param name="rotation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Methods.DeltaAngle(System.Single,System.Single)">
+            <summary>
+            Geeft het kleindste verschil tussen beide opgegeven hoeken (in graden) terug
+            </summary>
+            <param name="from"></param>
+            <param name="to"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Methods.DeltaRotation(Urho.Vector3,Urho.Vector3)">
+            <summary>
+            Geeft het kleindste verschil tussen beide opgegeven hoeken (in graden) terug
+            </summary>
+            <param name="from"></param>
+            <param name="to"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Methods.SinDeg(System.Single)">
+            <summary>
+            Voer de sinus uit met input in graden
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Methods.CosDeg(System.Single)">
+            <summary>
+            Voer de cosinus uit met input in graden
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Methods.TestVector(Urho.Vector3,System.Single,System.UInt32)">
+            <summary>
+            Geeft een Vector3 terug die je tijdens het uitvoeren van je spel kan bewerken.
+            Zo hoe je niet steeds te gokken met posities en hoeken.
+            Gebruik de cijfers 1, 2, 3, 4, 5 en 6 om de vector aan te passen.
+            Druk op enter om het resultaat te kopieren naar het klembord. 
+            Gebruik Ctrl + een cijfer (0 t/m 9) om een andere index te kiezen.
+            </summary>
+            <param name="startValue">De beginwaarde van de vector</param>
+            <param name="change">De grootte waarmee je de vector aanpast wanneer je op de cijferknoppen drukt</param>
+            <param name="index">Wil je meerdere vectoren wijzigen? Gebruik dan hier een ander nummer</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Methods.TestVector(System.Single,System.UInt32)">
+            <summary>
+            Geeft een Vector3 terug die je tijdens het uitvoeren van je spel kan bewerken.
+            Zo hoe je niet steeds te gokken met posities en hoeken.
+            Gebruik de cijfers 1, 2, 3, 4, 5 en 6 om de vector aan te passen.
+            Druk op enter om het resultaat te kopieren naar het klembord. 
+            Gebruik Ctrl + een cijfer (0 t/m 9) om een andere index te kiezen.
+            Gebruik de overload om ook de startwaarde (hier (1, 1, 1)) in te stellen.
+            </summary>
+            <param name="change">De grootte waarmee je de vector aanpast wanneer je op de cijferknoppen drukt</param>
+            <param name="index">Wil je meerdere vectoren wijzigen? Gebruik dan hier een ander nummer</param>
+            <returns></returns>
+        </member>
+        <member name="P:GDF.Room.Camera">
+            <summary>
+            Bewerk de camera instellingen
+            </summary>
+        </member>
+        <member name="P:GDF.Room.Light">
+            <summary>
+            Bewerk de belichtingsinstellingen
+            </summary>
+        </member>
+        <member name="P:GDF.Room.Cursor">
+            <summary>
+            Bewerk de cursor
+            </summary>
+        </member>
+        <member name="F:GDF.Room.BackgroundColor">
+            <summary>
+            Stel de kleur van de lucht in
+            </summary>
+        </member>
+        <member name="F:GDF.Room.Size">
+            <summary>
+            Stel de grootte van de room in. X is horizontaal, en Z is verticaal.
+            </summary>
+        </member>
+        <member name="P:GDF.Room.FrameCount">
+            <summary>
+            Het aantal frames vanaf het moment dat de room is opgestart.
+            </summary>
+        </member>
+        <member name="P:GDF.Room.FPS">
+            <summary>
+            De hoeveelheid frames per seconde
+            </summary>
+        </member>
+        <member name="F:GDF.Room.Score">
+            <summary>
+            Gebruik deze variabele om de score bij te houden.
+            </summary>
+        </member>
+        <member name="F:GDF.Room.Lives">
+            <summary>
+            Gebruik deze variabele om het aantal levens bij te houden. Standaard 3.
+            </summary>
+        </member>
+        <member name="F:GDF.Room.Level">
+            <summary>
+            Gebruik deze variabele om level bij te houden. Standaard 1.
+            </summary>
+        </member>
+        <member name="F:GDF.Room.Money">
+            <summary>
+            Gebruik deze variabele om de hoeveelheid geld bij te houden. Standaard 100.
+            </summary>
+        </member>
+        <member name="F:GDF.Room.Health">
+            <summary>
+            Gebruik deze variabele om de gezondheid bij te houden. Standaard 100
+            </summary>
+        </member>
+        <member name="P:GDF.Room.IsInitialized">
+            <summary>
+            Is deze room gestart?
+            </summary>
+        </member>
+        <member name="F:GDF.Room.UIWidth">
+            <summary>
+            Verdeel het UI-systeem (voor 2d afbeeldingen en teksten) in een aantal hokjes.
+            Standaard 32 hokjes. Met een resolutie van 1920 x 1080 is een hokje daarmee 1920/32=60 pixels groot.
+            Daarmaa wordt de hoogte van het UI-systeem gelijk aan 1080/60=18 hokjes
+            </summary>
+        </member>
+        <member name="P:GDF.Room.Name">
+            <summary>
+            De systeemnaam van deze room. Wordt gebruikt in Game.Room***
+            </summary>
+        </member>
+        <member name="M:GDF.Room.Start">
+            <summary>
+            Alles wat moet gebeuren als de room wordt aangemaakt.
+            </summary>
+        </member>
+        <member name="M:GDF.Room.Step">
+            <summary>
+            Alles wat er elk frame moet gebeuren.
+            </summary>
+        </member>
+        <member name="M:GDF.Room.InstanceCreate(System.UInt32,Urho.Vector3,System.Type)">
+            <summary>
+            Maak een nieuw voorwerp, en stel zelf het Id ervan in.
+            </summary>
+            <param name="id">Het systeemnummer waarmee je het voorwerp kan terugvinden</param>
+            <param name="position">De positie waarop je het voorwerp aanmaakt</param>
+            <param name="type">Bijvoorbeeld: typeof(instance_ball)</param>
+            <returns>Het aangemaakte voorwerp</returns>
+        </member>
+        <member name="M:GDF.Room.InstanceCreate(Urho.Vector3,System.Type)">
+            <summary>
+            Maak een nieuw voorwerp van een bepaald type.
+            </summary>
+            <param name="position">De positie waarop je het voorwerp aanmaakt</param>
+            <param name="type">Bijvoorbeeld: typeof(instance_ball)</param>
+            <returns>Het aangemaakte voorwerp</returns>
+        </member>
+        <member name="M:GDF.Room.InstanceCreate(System.Single,System.Single,System.Single,System.Type)">
+            <summary>
+            Maak een nieuw voorwerp van een bepaald type.
+            </summary>
+            <param name="type">Bijvoorbeeld: typeof(instance_ball)</param>
+            <returns>Het aangemaakte voorwerp</returns>
+        </member>
+        <member name="M:GDF.Room.InstanceDestroy(GDF.Instance,System.Boolean)">
+            <summary>
+            Vernietig een voorwerp uit de room
+            </summary>
+            <param name="callOnDestroy">Wordt de OnDestroy-methode van het voorwerp aangeroepen?</param>
+        </member>
+        <member name="M:GDF.Room.InstancesDestroy(System.Type,System.Boolean,System.Boolean)">
+            <summary>
+            Vernietig een type voorwerp uit de room
+            </summary>
+            <param name="includeChildren">Ook voorwerpen vernietigen die overerven van het opgegeven type?</param>
+            <param name="callOnDestroy">Wordt de OnDestroy-methode van het voorwerp aangeroepen?</param>
+        </member>
+        <member name="M:GDF.Room.GetInstancesByType(System.Type,System.Boolean)">
+            <summary>
+            Vraag alle voorwerpen op van een bepaald type.
+            </summary>
+            <param name="type">Bijvoorbeeld: typeof(instance_ball)</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns>een lijst van alle gevonden voorwerpen</returns>
+        </member>
+        <member name="M:GDF.Room.GetInstanceByType(System.Type,System.Boolean)">
+            <summary>
+            Geeft het eerst gevonden voorwerp terug van het opgegeven type
+            </summary>
+            <param name="type"></param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.GetInstance(System.UInt32)">
+            <summary>
+            Vraag een voorwerp op
+            </summary>
+            <param name="id">Het systeemnummer van het voorwerp</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.GetInstance(System.Type)">
+            <summary>
+            Vraag het eerst gevonden voorwerp van het opgegeven type op. 
+            </summary>
+            <param name="type">Bijvoorbeeld: typeof(instance_ball)</param>
+            <returns>null als er niets is gevonden</returns>
+        </member>
+        <member name="M:GDF.Room.InstanceExists(System.UInt32)">
+            <summary>
+            Bestaat er in deze room een voorwerp met het opgegeven id?
+            </summary>
+            <param name="id">Het systeemnummer van het voorwerp</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.InstanceExists(System.Type,System.Boolean)">
+            <summary>
+            Bestaat er in deze room een voorwerp van een bepaald type?
+            </summary>
+            <param name="type">Bijvoorbeeld: typeof(instance_wall)</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.InstanceCount(System.Type,System.Boolean)">
+            <summary>
+            Hoeveel voorwerpen van het opgegeven type bestaan er momenteel in de room?
+            </summary>
+            <param name="type"></param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.InstanceCount">
+            <summary>
+            Hoeveel voorwerpen bestaan er momenteel in de room?
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.GetInstances">
+            <summary>
+            Vraag alle voorwerpen in deze room op.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.InstanceNearest(Urho.Vector3,System.Type,GDF.Instance,System.Boolean)">
+            <summary>
+            Het dichtstbijzijnde voorwerp van het opgegeven type
+            </summary>
+            <param name="position">De zoekpositie</param>
+            <param name="type">Bijvoorbeeld: typeof(instance_ball)</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.InstanceFurthest(Urho.Vector3,System.Type,GDF.Instance,System.Boolean)">
+            <summary>
+            Het voorwerp van het opgegeven type dat het verst weg is van de positie.
+            </summary>
+            <param name="position">De zoekpositie</param>
+            <param name="type">Bijvoorbeeld: typeof(instance_ball)</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.DetectCollisions(GDF.Instance,System.Type,System.Boolean)">
+            <summary>
+            Haal een lijst op van alle voorwerpen van een bepaald type waar het opgegeven voorwerp nu mee botst.
+            </summary>
+            <param name="instance">Het opgegeven voorwerp</param>
+            <param name="type">Bijvoorbeeld: typeof(instance_ball)</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.DetectCollision(GDF.Instance,GDF.Instance)">
+            <summary>
+            Bostst het opgegeven voorwerp met een ander voorwerp?
+            </summary>
+        </member>
+        <member name="M:GDF.Room.InstancesAtPlace(Urho.Vector3,Urho.Vector3,System.Type,System.Boolean)">
+            <summary>
+            Geef een lijst terug van alle voorwrepen die de opgegeven plek raken.
+            </summary>
+            <param name="rectangle_point1">Het beginpunt van de zoekcubus.</param>
+            <param name="ractangle_point2">Het eindpunt van de zoekcubus.</param>
+            <param name="type">Bijvoorbeeld: typeof(instance_ball)</param>
+            <param name="includeChildren">Ook overervende instanties?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.InstancesAtPlace(Urho.Vector3,System.Single,System.Type,System.Boolean)">
+            <summary>
+            Geef een lijst terug van alle voorwerpen die de opgegeven plek raken.
+            </summary>
+            <param name="sphere_position">Het middelpunt van de zoekbal</param>
+            <param name="radius">De radius van de zoekbal</param>
+            <param name="type">Bijvoorbeeld typeof(instance_ball)</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.DetectRaycastIntersections(Urho.Vector3,Urho.Vector3,System.Type,GDF.Instance,System.Single,System.Boolean)">
+            <summary>
+            Schiet een lijn in een opgegeven richting, en geef een lijst terug met alle voorwerpen waar deze lijn doorheen gaat.
+            </summary>
+            <param name="position">De plek waar de lijn begint</param>
+            <param name="direction">De richting waarin de lijn heen wijst</param>
+            <param name="maxDistance">De lengte van de lijn</param>
+            <param name="type">Het type voorwerp wat gecontroleerd wordt</param>
+            <param name="exclude">Een voorwerp wat genegeerd mag worden</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns>Een tabel met alle gevonden voorwerpen (gesorteerd op afstand), en daarbij het precieze punt waar de lijn dit voorwerp heeft geraakt.</returns>
+        </member>
+        <member name="M:GDF.Room.DetectNearestRaycastIntersection(Urho.Vector3,Urho.Vector3,System.Type,GDF.Instance,System.Single,System.Boolean)">
+            <summary>
+            Schiet een lijn in een opgegeven richting, en geef het dichtstbijzijnde voorwerp terug waar de lijn doorheen gaat.
+            </summary>
+            <param name="position">De plek waar de lijn begint</param>
+            <param name="direction">De richting waar de lijn heen wijst</param>
+            <param name="maxDistance">De lengte van de lijn</param>
+            <param name="type">Het type voorwerp wat gecontroleerd wordt</param>
+            <param name="exclude">Een voorwerp wat genegeerd mag worden</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns>Het gevonden voorwerp dat het dichtste bij de opgegeven startpositie is.</returns>
+        </member>
+        <member name="M:GDF.Room.DetectNearestRaycastIntersection(Urho.Vector3,Urho.Vector3,System.Type,Urho.Vector3@,GDF.Instance,System.Single,System.Boolean)">
+            <summary>
+            Schiet een lijn in een opgegeven richting, en geef het dichtstbijzijnde voorwerp terug waar de lijn doorheen gaat.
+            </summary>
+            <param name="position">De plek waar de lijn begint</param>
+            <param name="direction">De richting waar de lijn heen wijst</param>
+            <param name="maxDistance">De lengte van de lijn</param>
+            <param name="type">Het type voorwerp wat gecontroleerd wordt</param>
+            <param name="intersection">Haal het precieze punt op waar de lijn dit voorwerp raakt</param>
+            <param name="exclude">Een voorwerp wat genegeerd mag worden</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns>Het gevonden voorwerp dat het dichtste bij de opgegeven startpositie is.</returns>
+        </member>
+        <member name="M:GDF.Room.DetectRaycastIntersections_cursorToWorld(System.Type,System.Single,System.Boolean)">
+            <summary>
+            Schiet een lijn vanuit de camera in de richting van de muis op het scherm, en geef een lijst terug met alle voorwerpen waar deze lijn doorheen gaat.
+            </summary>
+            <param name="maxDistance">De lengte van de lijn</param>
+            <param name="type">Het type voorwerp wat gecontroleerd wordt</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns>Een tabel met alle gevonden voorwerpen, en daarbij het precieze punt waar de lijn dit voorwerp heeft geraakt.</returns>
+        </member>
+        <member name="M:GDF.Room.DetectNearestRaycastIntersection_cursorToWorld(System.Type,Urho.Vector3@,System.Single,System.Boolean)">
+            <summary>
+            Schiet een lijn vanuit de camera in de richting van de muis op het scherm, en geef een voorwerp terug die de lijn als eerste raakt.
+            </summary>
+            <param name="maxDistance">De lengte van de lijn</param>
+            <param name="type">Het type voorwerp wat gecontroleerd wordt</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <param name="intersection">Haal het precieze punt op waar de lijn dit voorwerp raakt</param>
+            <returns>Een tabel met alle gevonden voorwerpen, en daarbij het precieze punt waar de lijn dit voorwerp heeft geraakt.</returns>
+        </member>
+        <member name="M:GDF.Room.DetectNearestRaycastIntersection_cursorToWorld(System.Type,System.Single,System.Boolean)">
+            <summary>
+            Schiet een lijn vanuit de camera in de richting van de muis op het scherm, en geef een voorwerp terug die de lijn als eerste raakt.
+            </summary>
+            <param name="maxDistance">De lengte van de lijn</param>
+            <param name="type">Het type voorwerp wat gecontroleerd wordt</param>
+            <param name="includeChildren">Ook overervende voorwerpen?</param>
+            <returns>Een tabel met alle gevonden voorwerpen, en daarbij het precieze punt waar de lijn dit voorwerp heeft geraakt.</returns>
+        </member>
+        <member name="M:GDF.Room.RemoveGrid">
+            <summary>
+            Verwijder de default ondergrond
+            </summary>
+        </member>
+        <member name="M:GDF.Room.GetKey(Urho.Key)">
+            <summary>
+            Is een bepaalde toets ingedrukt (blijvend)?
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.GetKeyPress(Urho.Key)">
+            <summary>
+            Wordt er een bepaalde toets ingedrukt?
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.Restart">
+            <summary>
+            Stel de room in op zijn beginwaarden.
+            </summary>
+        </member>
+        <member name="M:GDF.Room.Image2dCreate(System.String,System.String,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Maak een 2d afbeelding voor op het UI-systeem.
+            Standaard is het UI-systeem 32 hokjes breed.
+            </summary>
+            <param name="name">De systeemnaam waarmee je de afbeelding later weer kan terugvinden</param>
+            <param name="filename">Een bestand uit de map Data/Images (inclusief extensie)</param>
+            <param name="x">De X positie op het UI-systeem.</param>
+            <param name="y">De Y positie op het UI-systeem.</param>
+            <param name="width">De breedte van de afbeelding in het UI-systeem</param>
+            <param name="height">De hoogte van de afbeelding in het UI-systeem</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.Text2dCreate(System.String,System.String,System.Single,System.Single,System.Single)">
+            <summary>
+            Maak een 2d tekst voor op het UI-systeem.
+            Standaard is het UI-systeem 32 hokjes breed.
+            </summary>
+            <param name="name">De systeemnaam waarmee je de tekst later weer kan terugvinden</param>
+            <param name="text">De weer te geven tekst</param>
+            <param name="x">De X positie op het UI-systeem.</param>
+            <param name="y">De Y positie op het UI-systeem.</param>
+            <param name="fontsize">Wordt vermenigvuldigd met Room.UIWidth</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.Button2dCreate(System.String,System.String,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Maak een 2d knop voor op het UI-systeem.
+            Standaard is het UI-systeem 32 hokjes breed.
+            </summary>
+            <param name="name">De systeemnaam waarmee je de tekst later weer kan terugvinden</param>
+            <param name="filename">De afbeelding in de map Images voor deze knop</param>
+            <param name="x">De X positie op het UI-systeem.</param>
+            <param name="y">De Y positie op het UI-systeem.</param>
+            <param name="width">De breedte van de afbeelding in het UI-systeem</param>
+            <param name="height">De hoogte van de afbeelding in het UI-systeem</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.Slider2dCreate(System.String,System.String,System.String,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Maak een 2d knop voor op het UI-systeem.
+            Standaard is het UI-systeem 32 hokjes breed.
+            </summary>
+            <param name="name">De systeemnaam waarmee je de tekst later weer kan terugvinden</param>
+            <param name="filenameBackground">De afbeelding in de map Images voor achter de slider</param>
+            <param name="filenameSlider">De afbeelding in de map Images voor de slider</param>
+            <param name="x">De X positie op het UI-systeem.</param>
+            <param name="y">De Y positie op het UI-systeem.</param>
+            <param name="width">De breedte van de afbeelding in het UI-systeem</param>
+            <param name="height">De hoogte van de afbeelding in het UI-systeem</param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.Element2dDestroy(System.String)">
+            <summary>
+            Vernietig een 2d element met de opgegeven systeemnaam.
+            </summary>
+        </member>
+        <member name="M:GDF.Room.GetElements2d">
+            <summary>
+            Geef een lijst terug van alle 2d elementen in de room.
+            </summary>
+        </member>
+        <member name="M:GDF.Room.GetImage2d(System.String)">
+            <summary>
+            Haal een 2d afbeelding met de opgegeven systeemnaam op.
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.GetText2d(System.String)">
+            <summary>
+            Haal een 2d tekst met de opgegeven systeemnaam op.
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.GetButton2d(System.String)">
+            <summary>
+            Haal een 2d knop met de opgegeven systeemnaam op.
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.Room.GetSlider2d(System.String)">
+            <summary>
+            Haal een 2d slider met de opgegeven systeemnaam op.
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GDF.RoomUDP.InstanceCreate(System.UInt32,Urho.Vector3,System.Type)">
+            <summary>
+            Maak een nieuw voorwerp, en stel zelf het Id ervan in.
+            </summary>
+            <param name="id">Het systeemnummer waarmee je het voorwerp kan terugvinden</param>
+            <param name="position">De positie waarop je het voorwerp aanmaakt</param>
+            <param name="type">Bijvoorbeeld: typeof(instance_ball)</param>
+            <returns>Het aangemaakte voorwerp</returns>
+        </member>
+        <member name="M:GDF.RoomUDP.InstanceDestroy(GDF.Instance,System.Boolean)">
+            <summary>
+            Vernietig een voorwerp uit de room, en verzend een destroymessage over het netwerk
+            </summary>
+            <param name="callOnDestroy">Wordt de OnDestroy-methode van het voorwerp aangeroepen?</param>
+        </member>
+        <member name="M:GDF.RoomUDP.SendMasterToSlaveUpdate(GDF.Instance,GDF.Enums.UDPmessageTime)">
+            <summary>
+            Verzend direct een update van de master naar de slave.
+            </summary>
+            <param name="master">Het master voorwerp</param>
+        </member>
+        <member name="M:GDF.RoomUDP.SendSlaveToMasterUpdate(GDF.Instance,GDF.Enums.UDPmessageTime)">
+            <summary>
+            Verzend direct een update van de slave naar de master. 
+            Wordt gebruikt om de master van nieuwe waardes te voorzien aan de hand van gewijzigde waardes van de slave.
+            Werkt aan de hand van de opgegeven syncvars_slaveToMaster van het voorwerp.
+            </summary>
+            <param name="slave">Het slave voorwerp</param>
+        </member>
+        <member name="M:GDF.Sounds.RemoveSoundLoop(System.String)">
+            <summary>
+            Stop en verwijder een soundloop
+            </summary>
+            <param name="name">De systeemnaam van de soundloop</param>
+        </member>
+        <member name="M:GDF.Sounds.AddSoundLoop(System.String,System.String,System.Single)">
+            <summary>
+            Voeg een soundloop toe
+            </summary>
+            <param name="filename">De bestandsnaam</param>
+            <param name="systemName">De systeemnaam waarmee je de soundloop later nog kan bewerken</param>
+            <param name="volume">Het volume, standaard 1</param>
+        </member>
+        <member name="M:GDF.Sounds.AddSoundLoop(System.String,System.Single)">
+            <summary>
+            Voeg een soundloop toe
+            </summary>
+            <param name="filename">De bestandsnaam</param>
+            <param name="volume">Het volume, standaard 1</param>
+        </member>
+        <member name="M:GDF.Sounds.AddSoundLoop(System.String,System.String,GDF.Instance,GDF.Instance,System.Single)">
+            <summary>
+            Voeg een soundloop toe die automatisch minder luid wordt als het luisterend voorwerp zich verder weg beweegt.
+            </summary>
+            <param name="filename">De bestandsnaam</param>
+            <param name="systemName">De systeemnaam waarmee je de soundloop later nog kan bewerken.</param>
+            <param name="player">Het voorwerp dat het geluid afspeelt</param>
+            <param name="listener">Het voorwerp dat naar het geluid luistert</param>
+            <param name="maxDistance">De maximale hoorafstand van het geluid</param>
+        </member>
+        <member name="M:GDF.Sounds.AddSoundLoop(System.String,GDF.Instance,GDF.Instance,System.Single)">
+            <summary>
+            Voeg een soundloop toe die automatisch minder luid wordt als het luisterend voorwerp zich verder weg beweegt.
+            </summary>
+            <param name="filename">De bestandsnaam</param>
+            <param name="player">Het voorwerp dat het geluid afspeelt</param>
+            <param name="listener">Het voorwerp dat naar het geluid luistert</param>
+            <param name="maxDistance">De maximale hoorafstand van het geluid</param>
+        </member>
+        <member name="M:GDF.Sounds.AddSoundLoop(System.String,System.String,System.Type,GDF.Instance,System.Single)">
+            <summary>
+            Voeg een soundloop toe die automatisch luider wordt als er een voorwerp van een opgegeven type in de buurt komt.
+            </summary>
+            <param name="filename">De bestandsnaam</param>
+            <param name="systemName">De systeemnaam</param>
+            <param name="nearestPlayer">Het type voorwerp dat afspeelt</param>
+            <param name="listener">Het luisterende voorwerp</param>
+            <param name="maxDistance">De maximale hoorafstand van het geluid</param>
+        </member>
+        <member name="M:GDF.Sounds.AddSoundLoop(System.String,System.Type,GDF.Instance,System.Single)">
+            <summary>
+            Voeg een soundloop toe die automatisch luider wordt als er een voorwerp van een opgegeven type in de buurt komt.
+            </summary>
+            <param name="filename">De bestandsnaam</param>
+            <param name="nearestPlayer">Het type voorwerp dat afspeelt</param>
+            <param name="listener">Het luisterende voorwerp</param>
+            <param name="maxDistance">De maximale hoorafstand van het geluid</param>
+        </member>
+        <member name="M:GDF.Sounds.Play(System.String,System.Single)">
+            <summary>
+            Speelt direct een geluid af.
+            </summary>
+        </member>
+        <member name="M:GDF.Sounds.Play(System.String,Urho.Vector3,Urho.Vector3,System.Single)">
+            <summary>
+            Speel direct een geluid af op een bepaalde plek. Het geluid is zachter naarmate deze plek verder weg is van de afspeelpositie.
+            </summary>
+            <param name="filename">De bestandsnaam</param>
+            <param name="origin">De  positie waar het geluid wordt afgespeeld</param>
+            <param name="listener">De positie waar op er naar het geluid wordt geluisterd</param>
+            <param name="maxDistanceToInstance">De maximale hoorafstand van het geluid</param>
+        </member>
+        <member name="M:GDF.Sounds.SetSoundLoopBaseVolume(System.String,System.Single)">
+            <summary>
+            Stel het basisvolume van een soundloop in.
+            </summary>
+            /// <param name="name">De systeemnaam van de soundloop</param>
+        </member>
+        <member name="M:GDF.Sounds.FadeOutSoundLoop(System.String,System.Int32)">
+            <summary>
+            Laat een soundloop uitfaden.
+            </summary>
+            <param name="name">De systeemnaam van de soundloop</param>
+            <param name="frames">Het aantal frames waarna het geluid niet meer te horen is</param>
+        </member>
+        <member name="M:GDF.Sounds.FadeInSoundLoop(System.String,System.Int32)">
+            <summary>
+            Laat een soundloop infaden.
+            </summary>
+            <param name="name">De systeemnaam van de soundloop</param>
+            <param name="frames">Het aantal frames waarna het geluid volledig is ingefaded</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,7 @@
+C:\Users\115918\source\repos\opdracht 10\opdracht 10\bin\Debug\opdracht 10.exe.config
+C:\Users\115918\source\repos\opdracht 10\opdracht 10\bin\Debug\opdracht 10.exe
+C:\Users\115918\source\repos\opdracht 10\opdracht 10\bin\Debug\opdracht 10.pdb
+C:\Users\115918\source\repos\opdracht 10\opdracht 10\obj\Debug\opdracht 10.csprojAssemblyReference.cache
+C:\Users\115918\source\repos\opdracht 10\opdracht 10\obj\Debug\opdracht 10.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\opdracht 10\opdracht 10\obj\Debug\opdracht 10.exe
+C:\Users\115918\source\repos\opdracht 10\opdracht 10\obj\Debug\opdracht 10.pdb

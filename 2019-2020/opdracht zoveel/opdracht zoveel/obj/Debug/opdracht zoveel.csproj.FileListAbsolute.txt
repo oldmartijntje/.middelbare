@@ -1,0 +1,7 @@
+C:\Users\115918\source\repos\opdracht zoveel\opdracht zoveel\obj\Debug\opdracht zoveel.csprojAssemblyReference.cache
+C:\Users\115918\source\repos\opdracht zoveel\opdracht zoveel\obj\Debug\opdracht zoveel.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\opdracht zoveel\opdracht zoveel\bin\Debug\opdracht zoveel.exe.config
+C:\Users\115918\source\repos\opdracht zoveel\opdracht zoveel\bin\Debug\opdracht zoveel.exe
+C:\Users\115918\source\repos\opdracht zoveel\opdracht zoveel\bin\Debug\opdracht zoveel.pdb
+C:\Users\115918\source\repos\opdracht zoveel\opdracht zoveel\obj\Debug\opdracht zoveel.exe
+C:\Users\115918\source\repos\opdracht zoveel\opdracht zoveel\obj\Debug\opdracht zoveel.pdb

@@ -1,0 +1,6 @@
+C:\Users\Martijn v H\source\repos\fizzbuzz\fizzbuzz\bin\Debug\fizzbuzz.exe.config
+C:\Users\Martijn v H\source\repos\fizzbuzz\fizzbuzz\bin\Debug\fizzbuzz.exe
+C:\Users\Martijn v H\source\repos\fizzbuzz\fizzbuzz\bin\Debug\fizzbuzz.pdb
+C:\Users\Martijn v H\source\repos\fizzbuzz\fizzbuzz\obj\Debug\fizzbuzz.csprojAssemblyReference.cache
+C:\Users\Martijn v H\source\repos\fizzbuzz\fizzbuzz\obj\Debug\fizzbuzz.exe
+C:\Users\Martijn v H\source\repos\fizzbuzz\fizzbuzz\obj\Debug\fizzbuzz.pdb

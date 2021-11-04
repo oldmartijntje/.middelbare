@@ -1,0 +1,12 @@
+K:\visual studio\Program builder\Program builder\bin\Debug\Program builder.exe.config
+K:\visual studio\Program builder\Program builder\bin\Debug\Program builder.exe
+K:\visual studio\Program builder\Program builder\bin\Debug\Program builder.pdb
+K:\visual studio\Program builder\Program builder\obj\Debug\Program builder.csprojAssemblyReference.cache
+K:\visual studio\Program builder\Program builder\obj\Debug\Program builder.exe
+K:\visual studio\Program builder\Program builder\obj\Debug\Program builder.pdb
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\doomed projects\Program builder\Program builder\bin\Debug\Program builder.exe.config
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\doomed projects\Program builder\Program builder\bin\Debug\Program builder.exe
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\doomed projects\Program builder\Program builder\bin\Debug\Program builder.pdb
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\doomed projects\Program builder\Program builder\obj\Debug\Program builder.csprojAssemblyReference.cache
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\doomed projects\Program builder\Program builder\obj\Debug\Program builder.exe
+C:\Users\Martijn v H\Documents\desktop\⁪\programmeren\doomed projects\Program builder\Program builder\obj\Debug\Program builder.pdb

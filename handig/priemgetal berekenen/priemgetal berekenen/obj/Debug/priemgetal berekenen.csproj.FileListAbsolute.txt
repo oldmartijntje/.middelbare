@@ -1,0 +1,6 @@
+C:\Users\Martijn v H\source\repos\priemgetal berekenen\priemgetal berekenen\bin\Debug\priemgetal berekenen.exe.config
+C:\Users\Martijn v H\source\repos\priemgetal berekenen\priemgetal berekenen\bin\Debug\priemgetal berekenen.exe
+C:\Users\Martijn v H\source\repos\priemgetal berekenen\priemgetal berekenen\bin\Debug\priemgetal berekenen.pdb
+C:\Users\Martijn v H\source\repos\priemgetal berekenen\priemgetal berekenen\obj\Debug\priemgetal berekenen.csprojAssemblyReference.cache
+C:\Users\Martijn v H\source\repos\priemgetal berekenen\priemgetal berekenen\obj\Debug\priemgetal berekenen.exe
+C:\Users\Martijn v H\source\repos\priemgetal berekenen\priemgetal berekenen\obj\Debug\priemgetal berekenen.pdb

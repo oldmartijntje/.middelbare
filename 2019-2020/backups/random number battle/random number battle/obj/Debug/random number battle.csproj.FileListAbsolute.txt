@@ -1,0 +1,6 @@
+C:\Users\Martijn v H\source\repos\random number battle\random number battle\bin\Debug\random number battle.exe.config
+C:\Users\Martijn v H\source\repos\random number battle\random number battle\bin\Debug\random number battle.exe
+C:\Users\Martijn v H\source\repos\random number battle\random number battle\bin\Debug\random number battle.pdb
+C:\Users\Martijn v H\source\repos\random number battle\random number battle\obj\Debug\random number battle.exe
+C:\Users\Martijn v H\source\repos\random number battle\random number battle\obj\Debug\random number battle.pdb
+C:\Users\Martijn v H\source\repos\random number battle\random number battle\obj\Debug\random number battle.csprojAssemblyReference.cache

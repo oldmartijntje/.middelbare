@@ -1,0 +1,6 @@
+E:\visual studio\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\visual studio\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\visual studio\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\visual studio\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\visual studio\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\visual studio\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

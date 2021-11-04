@@ -1,0 +1,7 @@
+C:\Users\115918\source\repos\43\43\obj\Debug\43.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\43\43\bin\Debug\43.exe.config
+C:\Users\115918\source\repos\43\43\bin\Debug\43.exe
+C:\Users\115918\source\repos\43\43\bin\Debug\43.pdb
+C:\Users\115918\source\repos\43\43\obj\Debug\43.csprojAssemblyReference.cache
+C:\Users\115918\source\repos\43\43\obj\Debug\43.exe
+C:\Users\115918\source\repos\43\43\obj\Debug\43.pdb

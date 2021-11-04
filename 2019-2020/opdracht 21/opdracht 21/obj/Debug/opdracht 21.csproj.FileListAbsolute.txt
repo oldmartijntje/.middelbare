@@ -1,0 +1,7 @@
+C:\Users\115918\source\repos\opdracht 21\opdracht 21\bin\Debug\opdracht 21.exe.config
+C:\Users\115918\source\repos\opdracht 21\opdracht 21\bin\Debug\opdracht 21.exe
+C:\Users\115918\source\repos\opdracht 21\opdracht 21\bin\Debug\opdracht 21.pdb
+C:\Users\115918\source\repos\opdracht 21\opdracht 21\obj\Debug\opdracht 21.csprojAssemblyReference.cache
+C:\Users\115918\source\repos\opdracht 21\opdracht 21\obj\Debug\opdracht 21.csproj.CoreCompileInputs.cache
+C:\Users\115918\source\repos\opdracht 21\opdracht 21\obj\Debug\opdracht 21.exe
+C:\Users\115918\source\repos\opdracht 21\opdracht 21\obj\Debug\opdracht 21.pdb
